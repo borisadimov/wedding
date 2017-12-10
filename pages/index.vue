@@ -32,7 +32,7 @@
           <a href="/clip.mp4" target="_blank">
               Клип
           </a>
-          <a href="https://www.youtube.com/watch?v=lty02AJr8VE" target="_blank">
+          <a href="/wedding.mp4" target="_blank">
               Видео
           </a>
         </div>
