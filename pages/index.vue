@@ -141,6 +141,10 @@ padding: 0;
 color: white;
 font-weight: 400;
 line-height: 1.1;
+max-width: 80%
+}
+.title img {
+  width: 100%
 }
 
 .subtitle {
