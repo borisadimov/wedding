@@ -32,9 +32,7 @@
           <a href="/clip.mp4" target="_blank">
               Клип
           </a>
-          <a href="/wedding.mp4 " target="_blank">
-              Видео
-          </a>
+          <nuxt-link to="/video" target="_blank">Видео</nuxt-link>
         </div>
       </div>
       </div>
