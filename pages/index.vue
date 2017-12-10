@@ -41,6 +41,12 @@
 
 <script>
   export default {
+
+    head () {
+      return {
+        title: 'Wedding 25/08/2017'
+      }
+    },
     data() {
       return {
         isiOS: false
