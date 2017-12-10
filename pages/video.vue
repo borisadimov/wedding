@@ -2,7 +2,7 @@
   <div class="main-wrapper">
     <div class="wrapper">
       <div class="content">
-        <iframe src="//vk.com/video_ext.php?oid=2502931&id=456239043&hash=98cf0f93165b3c65" width="426" height="240" frameborder="0" allowfullscreen></iframe>
+        <iframe src="//vk.com/video_ext.php?oid=-35557284&id=456239017&hash=4fba68343a989e50" width="426" height="240" frameborder="0" allowfullscreen></iframe>
       </div>
       </div>
     </div>

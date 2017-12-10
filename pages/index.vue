@@ -149,7 +149,7 @@ max-width: 80%
 
 .subtitle {
 display: inline-block;
-margin: 20px 0 0 0;
+margin: 20px 0;
 white-space: nowrap;
 font-size: 1em;
 letter-spacing: 1px;
