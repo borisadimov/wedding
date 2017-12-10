@@ -32,7 +32,7 @@
           <a href="/clip.mp4" target="_blank">
               Клип
           </a>
-          <a href="/wedding.mp4" target="_blank">
+          <a href="/wedding.mp4 " target="_blank">
               Видео
           </a>
         </div>
@@ -43,17 +43,14 @@
 
 <script>
   export default {
-    asyncData ({isServer, req}) {
-      const UA = isServer ? req.headers['user-agent'] : navigator.userAgent
+    data() {
       return {
-        isiOS: isServer ?
-          (/iPad|iPhone|iPod/.test(UA))
-          : (/iPad|iPhone|iPod/.test(UA)) && (window && !window.MSStream)
+        isiOS: false
       }
-       // &&
-      //(!!navigator && (/iPad|iPhone|iPod/.test(navigator.userAgent))) && (window && !window.MSStream)
     },
     mounted: function() {
+      const UA =  navigator.userAgent
+      this.isiOS = (/iPad|iPhone|iPod/.test(UA)) && (!window.MSStream)
       document.getElementsByTagName('video')[0].volume = 0.3;
     }
   }
