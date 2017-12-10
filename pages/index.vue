@@ -26,7 +26,7 @@
 
         </div>
         <div class="links">
-          <a href="https://yadi.sk/d/ZvW0IFpl3QBW2U" target="_blank">
+          <a href="https://yadi.sk/d/iQQI0Tpc3QVSpQ" target="_blank">
               Фотографии
           </a>
           <a href="/clip.mp4" target="_blank">
@@ -176,6 +176,11 @@ color: #fff;
 }
 .links a:visited {
   color: #fff;
+}
+@media (max-width: 980px) {
+.links a {
+  margin-bottom: 10px;
+}
 }
 
 .mail {
