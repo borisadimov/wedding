@@ -10,7 +10,7 @@
         preload="true"
       >
       <!-- autoPlay -->
-        <source src="/bg.mp4" type="video/mp4" />
+        <source src="https://github.com/flywithmemsl/wedding/blob/master/static/bg.mp4?raw=true" type="video/mp4" />
       </video>
     </div>
     <div class="wrapper">
@@ -29,7 +29,7 @@
           <a href="https://yadi.sk/d/ZvW0IFpl3QBW2U" target="_blank">
               Фотографии
           </a>
-          <a href="/clip.mp4" target="_blank">
+          <a href="https://github.com/flywithmemsl/wedding/blob/master/static/clip.mp4?raw=true" target="_blank">
               Клип
           </a>
           <nuxt-link to="/video" target="_blank">Видео</nuxt-link>
